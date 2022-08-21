@@ -13,24 +13,18 @@
 
 ## Usage
 
-1. Get the latest versions of `spicetify-cli` ([source](https://github.com/spicetify/spicetify-cli)) and `spicetify-themes` ([source](https://github.com/spicetify/spicetify-themes)).
+1. Download the latest version of [**spicetify-cli**](https://github.com/spicetify/spicetify-cli) and [**spicetify-themes**](https://github.com/spicetify/spicetify-themes).
 
-1. Select theme:
-
-    > Current available themes: (1) **Ziro**.
+1. Select a theme (see [Gallery](#gallery) for available themes):
 
     ```bash
     spicetify config current_theme <theme-name>
     ```
 
-2. Select color scheme:
+2. Select a color scheme (see [Gallery](#gallery) for available color schemes under each theme):
 
     ```bash
-    # Dark
-    spicetify config color_scheme rose-pine-moon
-
-    # Light
-    spicetify config color_scheme rose-pine-dawn
+    spicetify config color_scheme <color-scheme>
     ```
 
 3. Apply changes:
