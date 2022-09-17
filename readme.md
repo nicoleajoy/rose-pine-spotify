@@ -11,39 +11,47 @@
     </a>
 </p>
 
+<!------------------------------------------------------>
+
 ## Usage
 
 1. Download the latest version of [**spicetify-cli**](https://github.com/spicetify/spicetify-cli) and [**spicetify-themes**](https://github.com/spicetify/spicetify-themes).
-
-1. Select a theme (see [Gallery](#gallery) for available themes):
-
-    ```bash
-    spicetify config current_theme <theme-name>
-    ```
-
-2. Select a color scheme (see [Gallery](#gallery) for available color schemes under each theme):
+2. Open your preferred terminal.
+3. Select a theme:
 
     ```bash
-    spicetify config color_scheme <color-scheme>
+    spicetify config current_theme ziro
     ```
+4. Select a color scheme:
 
-3. Apply changes:
+    ```bash
+    # Light theme
+    spicetify config color_scheme rose-pine-dawn
+    
+    # Dark theme
+    spicetify config color_scheme rose-pine-moon
+    ```
+5. Apply changes:
 
     ```bash
     spicetify apply
     ```
 
+<!------------------------------------------------------>
+
 ## Gallery
 
 ### Ziro
 
-#### Rose Pine Dawn
+#### Rosé Pine Dawn 
 
 ![Rosé Pine Dawn](screenshots/rose-pine-dawn.jpg)
 
-#### Rose Pine Moon
+#### Rosé Pine Moon
 
 ![Rosé Pine Moon](screenshots/rose-pine-moon.jpg)
+
+<!------------------------------------------------------>
 
 ## Thanks to
 
