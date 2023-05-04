@@ -20,7 +20,7 @@
 3. Select a theme:
 
     ```bash
-    spicetify config current_theme ziro
+    spicetify config current_theme Ziro
     ```
 4. Select a color scheme:
 
